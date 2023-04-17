@@ -66,10 +66,10 @@ jobs:
         cd libuvc-theta
         sudo mkdir build
         cd build
-        cmake -DCMAKE_BUILD_TYPE=Release ..
-        make
+        sudo cmake -DCMAKE_BUILD_TYPE=Release ..
+        sudo make
         sudo make install
-        ldconfig
+        sudo ldconfig
 
     - name: build
       run: |
