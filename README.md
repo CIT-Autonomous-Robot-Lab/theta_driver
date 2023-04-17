@@ -1,4 +1,4 @@
-# theta_driver
+# theta_driver  [![ROS-noetic-build-test](https://github.com/CIT-Autonomous-Robot-Lab/theta_driver/actions/workflows/build.yaml/badge.svg?branch=ros)](https://github.com/CIT-Autonomous-Robot-Lab/theta_driver/actions/workflows/build.yaml)
 
 ## Getting started
 ```
