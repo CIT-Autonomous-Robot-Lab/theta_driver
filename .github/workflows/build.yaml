@@ -62,7 +62,7 @@ jobs:
     - name: install libuvc-theta
       working-directory: /home
       run: |
-        git clone https://github.com/ricohapi/libuvc-theta.git
+        sudo git clone https://github.com/ricohapi/libuvc-theta.git
         cd libuvc-theta
         sudo mkdir build
         cd build
