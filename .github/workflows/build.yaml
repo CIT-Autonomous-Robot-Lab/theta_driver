@@ -60,7 +60,6 @@ jobs:
         sudo apt-get install clang-format-6.0
 
     - name: install libuvc-theta
-      working-directory: ./tmp
       run: |
         git clone https://github.com/ricohapi/libuvc-theta.git
         cd libuvc-theta
